@@ -1,3 +1,73 @@
-<h1>
-  {{title}}
-</h1>
+<div class="container">
+    <div class="row">
+        <div class="col-md-12 header">Register With Us!</div>
+    </div>
+    <div class="row">
+        <div class="col-md-4 inbox"><img src="https://2pobaduekzw9jt9a-zippykid.netdna-ssl.com/wp-content/uploads/2012/07/inbox-zero.png" alt="inbox"></div>
+        <div class="col-md-4">
+            <div class="row personalDetail">
+                <div class="col-md-12">
+                    <div class="input-group">
+                        <span class="input-group-addon" id="basic-addon1">Full Name</span>
+                        <input type="text" class="form-control" placeholder="Fullname" aria-describedby="basic-addon1" [(ngModel)]="FullName">
+                    </div>
+                </div><br><br>
+                <div class="col-md-12">
+                    <div class="input-group">
+                        <span class="input-group-addon" id="basic-addon1">UserName</span>
+                        <input type="text" class="form-control" placeholder="Username" aria-describedby="basic-addon1" [(ngModel)]="UserName">
+                    </div>
+                </div><br><br>
+                <div class="col-md-12">
+                    <div class="input-group">
+                        <span class="input-group-addon" id="basic-addon1">Email</span>
+                        <input type="text" class="form-control" placeholder="Email" aria-describedby="basic-addon1" [(ngModel)]="EmailAdress">
+                    </div>
+                </div><br><br>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="row otherDetail">
+                <div class="col-md-12">
+                    <div class="input-group">
+                        <div class="btn-group">
+                            <button type="button" class="btn btn-selectgender">Select Gender</button>
+                            <button type="button" class="btn btn-selectgender dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    <span class="caret"></span>
+    <span class="sr-only">Toggle Dropdown</span>
+  </button>
+                            <ul class="dropdown-menu">
+                                <li>Male</li>
+                                <li>Female</li>
+                                <li>Other</li>
+                            </ul>
+                        </div>
+                        <input type="text" class="form-control" aria-label="...">
+                    </div>
+                </div><br><br>
+                <div class="col-md-12">
+                    <div class="input-group">
+                        <span class="input-group-addon" id="basic-addon1">Password</span>
+                        <input type="password" class="form-control" placeholder="Password" aria-describedby="basic-addon1" [(ngModel)]="Password">
+                    </div>
+                </div><br><br>
+                <div class="col-md-12">
+                    <div class="input-group">
+                        <span class="input-group-addon" id="basic-addon1">Date of Birth</span>
+                        <input type="text" class="form-control" placeholder="dd/mm/yyyy" aria-describedby="basic-addon1" [(ngModel)]="DateOfBirth">
+                    </div>
+                </div><br><br>
+            </div>
+        </div>
+    </div>
+
+    <div class="row footer">
+        <div class="col-md-12">
+            <div class="row">
+                <div class="col-md-6 policytext"><input type="checkbox" id="checkbox" />I acknowledge that I have read and accept the <span id="TermsAndAgreements">Terms of Use Agreement</span> and consent to the privacy policy
+                </div>
+                <div class="col-md-6" id="submit-buttonplaceholder"><button type="submit" id="submit-button">Create Account</button></div>
+            </div>
+        </div>
+    </div>
+</div>

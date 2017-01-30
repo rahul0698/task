@@ -1,0 +1,62 @@
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    margin-top: 100px;
+    background-color: lightgray;
+    padding: 50px;
+    box-shadow: 0 0 15px grey;
+}
+
+.header {
+    margin-bottom: 25px;
+    text-align: center;
+    margin-top: -25px;
+    font-size: 45px;
+}
+
+div.inbox img {
+    width: 310px;
+}
+
+div.personalDetail label {
+    width: 100px;
+}
+
+.dateofbirth {
+    padding-right: 0px;
+}
+
+#submit-buttonplaceholder {
+    position: relative;
+}
+
+#submit-button {
+    position: absolute;
+    top: 10px;
+    right: 0;
+    background-color: lemonchiffon;
+    border-radius: 5px;
+}
+
+#TermsAndAgreements {
+    color: blue;
+    font-weight: bold;
+}
+
+#checkbox {
+    margin-right: 5px;
+}
+
+div.dropdown button {
+    background-color: #eceeef;
+}
+
+.footer {
+    margin-top: 70px;
+}
+
+div.otherDetail label {
+    width: 125px;
+}
